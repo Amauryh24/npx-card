@@ -1,8 +1,11 @@
 {
-  "name": "npx-card",
+  "name": "card",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Visit card in terminal",
+  "main": "bin/index.js",
+  "bin": {
+    "card": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Amauryh24/npx-card.git"
   },
-  "author": "",
+  "author": "Amaury Henrottay",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Amauryh24/npx-card/issues"

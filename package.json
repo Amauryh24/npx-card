@@ -1,14 +1,22 @@
 {
-  "name": "amauryh24",
+  "name": "@amauryh24/card",
   "version": "1.0.0",
   "description": "Visit card in terminal",
   "main": "bin/index.js",
   "bin": {
-    "amauryh24": "bin/index.js"
+    "@amauryh24/card": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Amauryh24/npx-card.git"
